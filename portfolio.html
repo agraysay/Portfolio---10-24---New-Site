@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	<title>Portfolio Work</title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+<!--Nav-->
+	<nav id="navigation" class="nav">   
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+		<a href="index.html">Home</a> <br>
+	 	<a href="about.html">About </a><br> 
+	 	<a href="resume.html">Resume </a><br> 
+	</nav>
+
+
+	
+	<span onclick="openNav()"> <img id="navicon"src="img/nav.jpg"></span>
+		<!--Text-->	
+	<header> 
+		PORTFOLIO PIECES
+	</header>
+<!--Portfolio Items-->	
+	<div id="body-content-portfolio">
+	<section class="portfolio-img"> 
+	<a href="http://www.amandagray.us/#/smash-1/"><img src="img/smash.png"></a>
+	</section>
+	<section class="portfolio-img"> 
+	<a href="http://www.amandagray.us/#/kea-design/"><img src="img/copenhagen.png"></a>
+	</section>
+	<section class="portfolio-img"> 
+	<a href="http://www.amandagray.us/#/lansing-latino-health/"><img src="img/lansing.png">
+	</section>
+	<section class="portfolio-img"> 
+	<a href="http://www.amandagray.us/#/presidents-reception/"><img src="img/office.png"></a>
+	</section>
+	<section class="portfolio-img"> 
+	<a href="http://www.amandagray.us/#/t-shirt-design/"><img src="img/prints.png"></a>
+	</section>
+	<section class="portfolio-img"> 
+	<a href="http://www.amandagray.us/#/linked/"><img src="img/linked.png"></a>
+	</section>
+
+</div>
+
+<script>
+	function openNav() {
+    document.getElementById("navigation").style.width = "200px";
+    document.getElementById("body-content-portfolio").style.marginLeft = "200px";
+}
+function closeNav() {
+    document.getElementById("navigation").style.width = "0";
+    document.getElementById("body-content-portfolio").style.marginLeft = "0";
+}
+</script>
+</body>
+</html>

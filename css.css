@@ -1,0 +1,131 @@
+#index{background:url(img/brooklyn.jpg) no-repeat center center;
+background-size:100%;
+height:100%;
+width: 100%;}
+
+#about-page{background-color:white;
+background-size:100%;
+height:100%;
+width: 100%;}
+
+/*nav css*/
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    overflow-x: hidden; 
+    padding-top: 80px; 
+    transition: 0.5s;
+}
+
+#navicon {width:50px;
+        height:50px;}
+
+.nav a {
+    padding: 8px 8px 8px 40px;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    font-size: 27px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.nav a:hover{
+    color: yellow;
+}
+
+.nav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/*home page*/
+#body-content {
+    margin-top: 8%;
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+#title {font-family: 'Poppins', sans-serif;
+display:block;
+font-weight: 700;
+width:50%;
+font-size: 100px;
+color:white;
+margin: 0 auto;
+text-align: center;
+line-height: 110%;
+}
+
+#body-copy{font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 50px;
+            color:white;
+            text-align: center;
+            background-color: black;
+            width:100%;
+
+}
+/*about page*/
+#body-content-about {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+#about{font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 50px;
+            color:white;
+            text-align: center;
+            background-color: cyan;
+            width:100%;}
+
+#explination {font-family: 'Poppins', sans-serif;
+            font-weight:500;
+            font-size:25px;
+            color:black;
+            width:70%;
+            margin-left: auto;
+            margin-right: auto;
+    }
+
+/*portfolio page*/
+#body-content-portfolio{display:block;
+margin-top: 100px;}
+.portfolio-img {float:left;
+}
+.portfolio-img img{width:375px;
+                    height:350px;
+                    padding: 15px;}
+
+header{
+display:block;
+width:100%;
+float:left;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+            font-weight:500;
+            font-size:35px;}
+
+
+/* Resume */
+
+#body-content-resume {margin-left: 70px;
+font-family: 'Poppins', sans-serif;
+width:60%;
+transition: margin-left .5s;
+    padding: 20px;}
+
+
+h4{line-height: 10px;
+}
+
+h1{color:gray;}
+
+
